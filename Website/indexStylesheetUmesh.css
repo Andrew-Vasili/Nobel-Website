@@ -1,76 +1,75 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<!--Insert css file url below-->
-	<link rel="stylesheet" type="text/css" href="indexStylesheet.css">
-	<!--Insert page title below-->
-	<title></title>
-</head>
-<body>
-	<!--header of page goes below-->
-	<header>
-		<figure>
-			<img src="images/LogoTransparent.png" alt="logo">
-		</figure> 
-		<section>
-			<div id="name"></div>
-			<div id="searchbar"></div>
-			<div id="social"></div>
-		</section>
-	</header>
-	
-	<!--Main content of page goes below-->
-	<main>
-	<!--class for the entire grid-->
-		<article class="medal_images">
-		<!--the images of the left-->
-			<article id="left">
-				<!--Nobel prize on Physics-->
-				<article id="physics_medal">
-					<p>The Nobel Prize in Physics is awarded once 
-					a year by the Royal Swedish Academy of Sciences. 
-					It is one of the five Nobel Prizes established 
-					by the will of Alfred Nobel in 1895 and awarded 
-					since 1901; the others are the Nobel Prize in 
-					Chemistry, Nobel Prize in Literature, 
-					Nobel Peace Prize, and Nobel Prize in Physiology 
-					or Medicine.
-				</article>
-				
-				<!--Nobel prize on Medicine-->
-				<article id="medicine_medal">
-					<p>
-				</article>
-				
-				<!--Nobel prize on Peace-->
-				<article id="peace_medal">
-					<p>
-				</article>
-			</article>
-			
-			<!--the images for the right-->
-			<article id="right">
-				<!--Nobel prize on Chemistry-->
-				<article id="chemistry_medal">
-					<p>
-				</article>
-				
-				<!--Nobel prize on Literature-->
-				<article id="literature_medal">
-					<p>
-				</article>
-				
-				<!--Nobel prize for Economic Sciences-->
-				<article id="economicSciences_medal">
-					<p>
-				</article>
-			</article>
-		</article>
-	</main>
-	
-	<!--Footer (if necessary)-->
-	<footer>
-	</footer>
-</body>
+html{
 
-</html>
+}
+body {
+margin-left:auto;
+margin-right:auto;
+background-image: url("images/background.png");
+}
+
+header{
+	width:100%;
+	height:100px;
+}
+
+#left {
+	width:400px;
+	float:left;
+}
+
+#right {
+	width:400px;
+	float:left;
+	margin-left:5px;
+}
+
+#physics_medal{
+	background-image:url("images/medals/physics_and_chemistry_prize.png");
+	background-size:400px 400px;
+	background-repeat:no-repeat;
+	height:400px;
+}
+
+#medicine_medal{
+	background-image:url("images/medals/physiology_and_medicine_prize.png");
+	background-size:400px 400px;
+	background-repeat:no-repeat;
+	height:400px;
+}
+
+#peace_medal{
+	background-image:url("images/medals/peace_prize.png");
+	background-size:400px 400px;
+	background-repeat:no-repeat;
+	height:400px;
+}
+
+#chemistry_medal{
+	background-image:url("images/medals/physics_and_chemistry_prize.png");
+	background-size:400px 400px;
+	background-repeat:no-repeat;
+	height:400px;
+}
+
+#literature_medal{
+	background-image:url("images/medals/literature_prize.png");
+	background-size:400px 400px;
+	background-repeat:no-repeat;
+	height:400px;
+}
+
+#economicSciences_medal{
+	background-image:url("images/medals/economic_science_prize.png");
+	background-size:400px 400px;
+	background-repeat:no-repeat;
+	height:400px;
+}
+
+.medal_images{
+	max-width:1004px;
+	margin-left: auto;
+	margin-right: auto;
+	position: center;
+}
+
+
