@@ -40,6 +40,7 @@ float:left;
 }
 
 #physics_medal{
+background-image: url("images/galaxy.png");
 	 background-color:rgba(254, 255, 255, 0.4);
 	background-size: 100%;
 	background-repeat:no-repeat;
@@ -49,6 +50,7 @@ float:left;
 }
 
 #medicine_medal{
+background-image: url("images/medicine.png");
 	 background-color:rgba(254, 255, 255, 0.4);
 	background-size: 100%;
 	background-repeat:no-repeat;
@@ -56,19 +58,23 @@ float:left;
 }
 
 #peace_medal{
+background-image: url("images/peace.png");
 	 background-color:rgba(254, 255, 255, 0.4);
 	background-size: 100%;
 	background-repeat:no-repeat;
 	height:200px;
+	color: white;
 }
 
 #chemistry_medal{
+background-image: url("images/Chemistry.png");
  background-color:rgba(254, 255, 255, 0.4);
 	background-repeat:no-repeat;
 	height:200px;
 }
 
 #literature_medal{
+background-image: url("images/literate.png");
  background-color:rgba(254, 255, 255, 0.4);
 	background-size: 100%;
 	background-repeat:no-repeat;
@@ -76,6 +82,7 @@ float:left;
 }
 
 #economicSciences_medal{
+background-image: url("images/economic.png");
  background-color:rgba(254, 255, 255, 0.4);
 	background-size: 100%;
 	background-repeat:no-repeat;
@@ -93,7 +100,6 @@ float:left;
 p {
 font-family: 'Montserrat', sans-serif;
 font-size:70px;
-padding:10px;
  margin: 0;
  height:200px;
  opacity:0.8;
@@ -101,7 +107,6 @@ padding:10px;
 
 p:hover {
 
-z-index: -1;
 background-color:rgba(254, 255, 255, 0.7);
 }
 
