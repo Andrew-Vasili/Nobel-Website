@@ -118,4 +118,53 @@ text-align:center; /*Align the text to the center*/
 .form-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
     border: 0;
     padding: 0;
-}    
+}  
+
+html, body, .container
+{
+    margin-top: 100px;
+    display: block;
+    height: 100%; 
+    min-height: 100%;
+}
+
+.first {
+    float: left;
+    border-style: inset;
+    border-color: #cc3333;
+    width: 40%;
+    height: 40%;
+    background-color: #cc3333;
+}
+
+.second{
+    float: left;
+    border-style: inset;
+    border-color: #279b61;
+    width: 40%;
+    height: 60%;
+    background-color: #279b61;
+}
+
+
+.third{
+    position: relative;
+    float: right;
+    width: 30%;
+    height: 45%;
+    background-color: blue;
+}
+
+.fourth {
+    float: right;
+    width: 50%;
+    height: 20%;
+    background-color: #DDDDDD;
+}
+
+.last{
+    float: right;
+    width: 50%;
+    height: 20%;
+    background-color: yellow;
+}  
