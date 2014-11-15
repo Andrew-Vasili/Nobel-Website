@@ -1,0 +1,40 @@
+<DOCTYPE html>
+<html>
+<head>
+	<!--Insert css file url below-->
+	<link rel="stylesheet" type="text/css" href="laureatesdesktop.css">
+	<!--Insert page title below-->
+	<title></title>
+</head>
+<body>
+	<!--header of page goes below-->
+	<header>
+		<figure>
+			<img src="logo.png" alt="logo">
+		</figure> 
+		<section>
+			<div id="name"></div>
+			<div id="searchbar"></div>
+			<div id="social"></div>
+		</section>
+	</header>
+	
+	<!--Main content of page goes below-->
+	<main name="laureateProfile">
+		<!--laureate image-->
+		<section class="laureateImage">
+			<figure id="laureatePicture">
+			</figure>
+		</section>
+		
+		<!--laureate information-->
+		<article id="laureateInformation">
+		</article>
+	</main>
+	
+	<!--Footer (if necessary)-->
+	<footer>
+	</footer>
+</body>
+
+</html>
