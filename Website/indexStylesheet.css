@@ -23,43 +23,52 @@ header{
 article {
 	margin-left: auto;
 	margin-right: auto;
-	Width:100%;
+	width:100%;
 
 }
 
 #left {
 	width:50%;
-float:left; 
+	float:left; 
 }
 
 #right {
 	width:50%;
 	float:left;
-
-
 }
 
 #physics_medal{
+<<<<<<< Updated upstream
 background-image: url("images/galaxy.png");
 	 background-color:rgba(254, 255, 255, 0.4);
+=======
+	background-color:rgba(254, 255, 255, 0.4);
+>>>>>>> Stashed changes
 	background-size: 100%;
 	background-repeat:no-repeat;
 	height:200px;
-	
-	
+		
 }
 
 #medicine_medal{
+<<<<<<< Updated upstream
 background-image: url("images/medicine.png");
 	 background-color:rgba(254, 255, 255, 0.4);
+=======
+	background-color:rgba(254, 255, 255, 0.4);
+>>>>>>> Stashed changes
 	background-size: 100%;
 	background-repeat:no-repeat;
 	height:200px;
 }
 
 #peace_medal{
+<<<<<<< Updated upstream
 background-image: url("images/peace.png");
 	 background-color:rgba(254, 255, 255, 0.4);
+=======
+	background-color:rgba(254, 255, 255, 0.4);
+>>>>>>> Stashed changes
 	background-size: 100%;
 	background-repeat:no-repeat;
 	height:200px;
@@ -67,23 +76,35 @@ background-image: url("images/peace.png");
 }
 
 #chemistry_medal{
+<<<<<<< Updated upstream
 background-image: url("images/Chemistry.png");
  background-color:rgba(254, 255, 255, 0.4);
+=======
+ 	background-color:rgba(254, 255, 255, 0.4);
+>>>>>>> Stashed changes
 	background-repeat:no-repeat;
 	height:200px;
 }
 
 #literature_medal{
+<<<<<<< Updated upstream
 background-image: url("images/literate.png");
  background-color:rgba(254, 255, 255, 0.4);
+=======
+ 	background-color:rgba(254, 255, 255, 0.4);
+>>>>>>> Stashed changes
 	background-size: 100%;
 	background-repeat:no-repeat;
 	height:200px;
 }
 
 #economicSciences_medal{
+<<<<<<< Updated upstream
 background-image: url("images/economic.png");
  background-color:rgba(254, 255, 255, 0.4);
+=======
+ 	background-color:rgba(254, 255, 255, 0.4);
+>>>>>>> Stashed changes
 	background-size: 100%;
 	background-repeat:no-repeat;
 	height:200px;
