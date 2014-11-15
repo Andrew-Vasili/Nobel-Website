@@ -17,7 +17,7 @@
             <!--Removed figcaption-->	
         </figure> 
         <figure>
-            <img id="search" src="images/search.png" alt="logo">        
+            <img id="search" src="images/logo.png" alt="logo">        
         </figure>
         </section>
       </section>
