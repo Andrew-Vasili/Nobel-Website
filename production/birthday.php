@@ -22,7 +22,7 @@
 
     print "<main>";
 
-    print "<h3>Nobel Laureates born on $printDate</h3>";
+    print "<h2>Nobel Laureates born on $printDate</h2>";
 
     for ($i = 0; $i < $numLaureates; $i++) {
 

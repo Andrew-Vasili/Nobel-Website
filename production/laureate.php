@@ -61,7 +61,7 @@
             print "<br>Died: <span id='died'>$died, $diedCity, $diedCountry</span>\n";
         }
         
-        print "<br><br><b>Nobel Prizes</b><br>";
+        print "<br><br><strong>Nobel Prizes</strong><br>";
         print "<b>Year:</b> <span id='year'>$year</span>\n";
         print "<br><b>Category:</b> <span id='category'>$category</span>\n";
        
@@ -70,7 +70,7 @@
         }
 
         if ($aName != ""){
-            print "<br><b>Affiliations:</b> ";
+            print "<br><br><b>Affiliations:</b> ";
             print "$aName, $aCity, $aCountry\n";
         }
 

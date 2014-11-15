@@ -53,7 +53,7 @@
         print "\n<main>";
 
         if(false == ($str =@ file_get_contents('$imageUrl',NULL,NULL,0,1))){
-            print "<img class='laureateImg' src='$imageUrl' onerror='imgError(this);' />";
+            print "<img class='laureateImg' src='$imageUrl' onerror='imgError(this);'/>";
         }
         
         print "<div class='info'><span class='laureateName'>$firstname $surname</span>\n";
@@ -66,7 +66,7 @@
             print "<br>Died: <span id='died'>$died, $diedCity, $diedCountry</span>\n";
         }
         
-        print "<br><br><b>Nobel Prizes</b><br>";
+        print "<br><br><strong>Nobel Prizes</strong><br>";
         print "<b>Year:</b> <span id='year'>$year</span>\n";
         print "<br><b>Category:</b> <span id='category'>$category</span>\n";
        
@@ -75,7 +75,7 @@
         }
 
         if ($aName != ""){
-            print "<br><b>Affiliations:</b> ";
+            print "<br><br><b>Affiliations:</b> ";
             print "$aName, $aCity, $aCountry\n";
         }
 

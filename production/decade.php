@@ -43,25 +43,34 @@
 
     // Previous Decade
     if ($numyears == 11){
-        print "<a href='decade.php?category=$category&year=$prevYear'>";
+        print "<a  href='decade.php?category=$category&year=$prevYear'>";
         print "<<" . ($prevYear-10) . ' - ' . ($prevYear); 
         print "</a> ";
     }
     
     // Current Decade
-    print "<b>" . ($prevYear) . ' - ' . $chosenYear . "</b>";
+    print "<span class='pageNavi'>" . ($prevYear) . ' - ' . $chosenYear . "</span>";
 
     // Next Decade 
-    if ($chosenYear != date("Y")){
+    if ($chosenYear < date("Y")){
         $nextYear = ($chosenYear+10);
-        print " <a href='decade.php?category=$category&year=$nextYear'>";
-        print ($chosenYear) . ' - ' . ($chosenYear+10); 
+        
+        if (($chosenYear+10) > date("Y"))  {
+            print " <a href='decade.php?category=$category&year=";
+            print date("Y");
+            print "'>";
+            print ($chosenYear) . ' - ' . date("Y"); 
+        } else {
+            print " <a href='decade.php?category=$category&year=$nextYear'>";
+            print ($chosenYear) . ' - ' . ($chosenYear+10); 
+        }
+        
         print " >> </a><br>";
     }
 
     $cat = ucfirst($result['prizes'][0]['category']);
 
-    print "<h3>$cat</h3></div>\n";
+    print "</div><h2 id='decadeTitle'>$cat</h2>\n";
 
     for ($i = 0; $i < $numyears; $i++) {
 
@@ -89,7 +98,7 @@
             
             if( false == ($str =@ file_get_contents('$imageUrl',NULL,NULL,0,1))){
                 print "<article class='laureateprofiletext'> <figure class='laureateprofilepicture'>
-                <img src='$imageUrl' onerror='imgError(this);' /></figure>";
+                <img class='laureateImg' src='$imageUrl' onerror='imgError(this);' /></figure>";
             }
 
             print "<p><a href='laureate.php?id=$id'>$firstname $surname</a>\n";
@@ -102,12 +111,12 @@
     }
 ?>
 
-<script>
+<!-- <script>
 function imgError(image) {
     image.onerror = "";
     image.src = "/images/missing.jpg";
     return true;
-}
-</script>
+} 
+</script> -->
 
 <?php include 'footer.php';?>

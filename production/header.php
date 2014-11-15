@@ -2,7 +2,9 @@
 <html>
 <head>
     <!--Insert css file url below-->
-    <link rel="stylesheet" type="text/css" href="decadedesktop.css">
+    <link rel="stylesheet" media ="screen and (max-width: 700px)" type="text/css" href="mobile.css" />
+    <link rel="stylesheet" media ="screen and (min-width: 701px)" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
     <!-- <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'> -->
     <!--Insert page title below-->
     <title>Nobel Prize</title>
